@@ -3,10 +3,6 @@
 import sys
 import csv
 
-def get_status(file):
-    with open(file) as fp:
-        return fp.readline()
-
 script_name = sys.argv[0]
 
 try:
